@@ -1,0 +1,20 @@
+{
+  "name": "note-cli",
+  "version": "0.1.0",
+  "description": "Simple CLI tool for managing notes",
+  "main": "dist/index.js",
+  "bin": {
+    "note": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  },
+  "keywords": ["note", "cli", "todo"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}

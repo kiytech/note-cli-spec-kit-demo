@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Local data
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
